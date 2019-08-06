@@ -14,7 +14,7 @@ for i in range(n):
     if a[i] > maximum:
         maximum = a[i]
         max_index = i
-    elif a[i] < minimum:
+    if a[i] < minimum:
         minimum = a[i]
         min_index = i
 
